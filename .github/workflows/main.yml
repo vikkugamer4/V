@@ -28,7 +28,7 @@ jobs:
           pip install pymongo python-telegram-bot pyTelegramBotAPI certifi
 
       - name: Set Execute Permissions
-        run: chmod +x * && chmod +x LEGEND
+        run: chmod +x * && chmod +x mafia
 
       - name: Run Application
         run: python vikkupapa.py
